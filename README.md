@@ -1,2 +1,13 @@
-# BingOSINT
-BingScraper는 Bing 검색결과를 HTML 기반으로 크롤링하여 특정 키워드에 대한 웹 링크를 수집하는 Python 스크립트입니다.
+# 🕷️ BingOSINT
+
+**BingScraper**는 Bing 검색결과를 HTML 기반으로 크롤링하여 특정 키워드에 대한 웹 링크를 수집하는 Python 스크립트입니다.
+
+공식 API 없이도 검색결과를 빠르게 수집할 수 있어, 다음과 같은 목적에 활용할 수 있습니다:
+
+- 🛰️ OSINT(Open Source Intelligence) 정보 수집
+- 🐞 버그 바운티를 위한 도메인/페이지 수집
+- 🔎 특정 키워드 기반 자동화 검색
+- 📊 검색엔진 노출 확인용 리서치 도구
+
+> ⚠️ **주의**: 비공식 HTML 파싱 방식으로, 대량 요청 시 Bing 측에서 차단될 수 있습니다.  
+> 반드시 `User-Agent` 설정 및 `time.sleep()` 등의 요청 간 딜레이를 추가하여 사용하세요.
